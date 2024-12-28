@@ -1,0 +1,1 @@
+C:\Users\pokem\Proyectos unity\3DFundation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\3071s6n5\obj\arm64-v8a
