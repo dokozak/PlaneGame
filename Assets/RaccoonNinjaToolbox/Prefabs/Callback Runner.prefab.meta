@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 25b7e638bdff27a42b55ecbcbc3c260c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 260139
+  packageName: Raccoon Ninja's Toolbox
+  packageVersion: 1.0.0
+  assetPath: Assets/RaccoonNinjaToolbox/Prefabs/Callback Runner.prefab
+  uploadId: 599154

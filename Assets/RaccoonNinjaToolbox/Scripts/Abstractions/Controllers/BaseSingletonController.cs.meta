@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 206a269f734a4f2692c2b5bcccfba123
+timeCreated: 1688412776
+AssetOrigin:
+  serializedVersion: 1
+  productId: 260139
+  packageName: Raccoon Ninja's Toolbox
+  packageVersion: 1.0.0
+  assetPath: Assets/RaccoonNinjaToolbox/Scripts/Abstractions/Controllers/BaseSingletonController.cs
+  uploadId: 599154

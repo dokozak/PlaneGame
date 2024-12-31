@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: f9005505d82346be93fe95e4a618165f
+timeCreated: 1688345181
+AssetOrigin:
+  serializedVersion: 1
+  productId: 260139
+  packageName: Raccoon Ninja's Toolbox
+  packageVersion: 1.0.0
+  assetPath: Assets/RaccoonNinjaToolbox/Scripts/Abstractions/DataTypes/RangedNumeric.cs
+  uploadId: 599154

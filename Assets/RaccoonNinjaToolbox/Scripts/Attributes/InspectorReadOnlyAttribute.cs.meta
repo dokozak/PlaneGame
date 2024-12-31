@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: bfb69acfd1a94637a5a04c9a2a3332e1
+timeCreated: 1688338650
+AssetOrigin:
+  serializedVersion: 1
+  productId: 260139
+  packageName: Raccoon Ninja's Toolbox
+  packageVersion: 1.0.0
+  assetPath: Assets/RaccoonNinjaToolbox/Scripts/Attributes/InspectorReadOnlyAttribute.cs
+  uploadId: 599154

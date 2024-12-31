@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 859f162f48d24d519d9d1ad1e622756b
+timeCreated: 1688341529
+AssetOrigin:
+  serializedVersion: 1
+  productId: 260139
+  packageName: Raccoon Ninja's Toolbox
+  packageVersion: 1.0.0
+  assetPath: Assets/RaccoonNinjaToolbox/Scripts/DataTypes/RangedFloat.cs
+  uploadId: 599154

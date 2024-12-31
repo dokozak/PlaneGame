@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: fcf1a2fe0e054971a22a9107bc8134fa
+timeCreated: 1688777567
+AssetOrigin:
+  serializedVersion: 1
+  productId: 260139
+  packageName: Raccoon Ninja's Toolbox
+  packageVersion: 1.0.0
+  assetPath: Assets/RaccoonNinjaToolbox/Scripts/ScriptableObjects/TypedAudioClip.cs
+  uploadId: 599154

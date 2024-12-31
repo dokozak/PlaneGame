@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 0db992cb7be249688ee355d0d9557cab
+timeCreated: 1688414030
+AssetOrigin:
+  serializedVersion: 1
+  productId: 260139
+  packageName: Raccoon Ninja's Toolbox
+  packageVersion: 1.0.0
+  assetPath: Assets/RaccoonNinjaToolbox/Scripts/Interfaces/IMinMaxRangeAttribute.cs
+  uploadId: 599154

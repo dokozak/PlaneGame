@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 279188a0da974315b16b95e2c9860504
+timeCreated: 1688341606
+AssetOrigin:
+  serializedVersion: 1
+  productId: 260139
+  packageName: Raccoon Ninja's Toolbox
+  packageVersion: 1.0.0
+  assetPath: Assets/RaccoonNinjaToolbox/Scripts/Attributes/MinMaxFloatRangeAttribute.cs
+  uploadId: 599154

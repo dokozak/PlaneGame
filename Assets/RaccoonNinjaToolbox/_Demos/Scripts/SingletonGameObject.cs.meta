@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: f0a48745944b4f92832001eaafdf74dc
+timeCreated: 1688412882
+AssetOrigin:
+  serializedVersion: 1
+  productId: 260139
+  packageName: Raccoon Ninja's Toolbox
+  packageVersion: 1.0.0
+  assetPath: Assets/RaccoonNinjaToolbox/_Demos/Scripts/SingletonGameObject.cs
+  uploadId: 599154

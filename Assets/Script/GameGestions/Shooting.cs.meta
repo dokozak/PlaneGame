@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 8df077b4472f9244cad5702b67de10fb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - shot: {fileID: 8768624657660390605, guid: 74355554555b58b47a60730bca98354d, type: 3}
+  - arCamera: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
