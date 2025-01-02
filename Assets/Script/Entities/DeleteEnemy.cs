@@ -3,16 +3,15 @@ using UnityEngine;
 public class DeleteEnemy : MonoBehaviour
 {
 
-    public float planoY;
     public int losepoints;
-
-    // Update is called once per frame
-    void Update()
+    private bool isDestoy;
+    private void OnCollisionEnter(Collision collision)
     {
-        transform.Translate(Vector3.down * Time.deltaTime);
-        if (planoY-2 > transform.position.y)
+        if (collision.gameObject.tag.Equals("plane"))
         {
+            if(!isDestoy) 
             PlayerInformation.pointOfPlayer -= losepoints;
+            isDestoy = true;
             Destroy(gameObject);
         }
     }

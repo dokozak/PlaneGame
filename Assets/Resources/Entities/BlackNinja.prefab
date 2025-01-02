@@ -617,10 +617,9 @@ GameObject:
   - component: {fileID: 6042207799591884330}
   - component: {fileID: 2098968069191198583}
   - component: {fileID: 972936464352567955}
-  - component: {fileID: 3401552685159958635}
   - component: {fileID: 1347041911278307652}
   - component: {fileID: 3567376053893018837}
-  - component: {fileID: 6310344351756681182}
+  - component: {fileID: 6855251452008231825}
   m_Layer: 0
   m_Name: BlackNinja
   m_TagString: Enemy
@@ -680,20 +679,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosion: {fileID: 0}
   pointWin: 10
---- !u!114 &3401552685159958635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4433298990690345165}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecda112a0761a7448b1b71e8efb323e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  planoY: 0
-  losepoints: 10
 --- !u!54 &1347041911278307652
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -740,29 +725,21 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.70428085, y: 2.3941896, z: 0.9625143}
-  m_Center: {x: 0.04063768, y: 0.9010544, z: -0.018740034}
---- !u!65 &6310344351756681182
-BoxCollider:
+  m_Size: {x: 1.5598428, y: 2.2467182, z: 1.0643387}
+  m_Center: {x: -0.1306556, y: 1.0779041, z: 0.03217239}
+--- !u!114 &6855251452008231825
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4433298990690345165}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.2126, y: 0.13185056, z: 0.9303112}
-  m_Center: {x: 0.024320614, y: 1.3925906, z: 0.03484309}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecda112a0761a7448b1b71e8efb323e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  losepoints: 20
 --- !u!1 &4937732526076569254
 GameObject:
   m_ObjectHideFlags: 0

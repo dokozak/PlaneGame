@@ -10,12 +10,12 @@ public class GestionJuego : MonoBehaviour
 
 
 
-    
+
 
     public void Start()
     {
         generateEnemies = GetComponent<CreateEnemies>();
-        Physics.gravity = new Vector3(0,-0.2f,0);
+        Physics.gravity = new Vector3(0, -0.2f, 0);
     }
 
 
@@ -35,19 +35,20 @@ public class GestionJuego : MonoBehaviour
 
     private void PlanesFound(ARPlanesChangedEventArgs datosPlanos)
     {
-        if(datosPlanos.added != null && datosPlanos.added.Count > 0)
+        if (datosPlanos.added != null && datosPlanos.added.Count > 0)
         {
             planes.AddRange(datosPlanos.added);
         }
 
         foreach (ARPlane plane in planes)
         {
-            if(plane.extents.x * plane.extents.y >= 0.3)
+            if (plane.extents.x * plane.extents.y >= 0.3)
             {
                 DetenerDeteccionPlanos();
-                generateEnemies.planeHeight = plane.center.y;
+                generateEnemies.plane = plane;
                 generateEnemies.isEnable = true;
                 PlayerInformation.pointOfPlayer = 0;
+                plane.gameObject.SetActive(true);
             }
         }
     }
@@ -61,4 +62,6 @@ public class GestionJuego : MonoBehaviour
             plane.gameObject.SetActive(false);
         }
     }
+    
+
 }
