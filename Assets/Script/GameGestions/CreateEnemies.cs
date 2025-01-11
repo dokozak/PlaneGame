@@ -28,7 +28,7 @@ public class CreateEnemies : MonoBehaviour
     public void generateRandomEnemy()
     {
         Vector3 posicionEnemigo = GetRandomPointInPlane(plane);
-        posicionEnemigo.y += Random.Range(5, 10);
+        posicionEnemigo.y += Random.Range(3, 5);
         GameObject enemigoGenerar = enemies[Random.Range(0, enemies.Length)];
         Instantiate(enemigoGenerar, posicionEnemigo, Quaternion.identity).transform.Rotate(0, 180, 0);
     }

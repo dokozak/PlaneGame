@@ -5,12 +5,13 @@ public class DeleteEnemy : MonoBehaviour
 
     public int losepoints;
     private bool isDestoy;
-    private void OnCollisionEnter(Collision collision)
+
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag.Equals("plane"))
+        if (other.gameObject.tag.Equals("plane"))
         {
-            if(!isDestoy) 
-            PlayerInformation.pointOfPlayer -= losepoints;
+            if (!isDestoy)
+                PlayerInformation.pointOfPlayer -= losepoints;
             isDestoy = true;
             Destroy(gameObject);
         }

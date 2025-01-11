@@ -2,9 +2,10 @@ using UnityEngine;
 
 public class CollisionShot : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag.Equals("Enemy"))
+        if (other.gameObject.tag.Equals("Enemy"))
         {
             Destroy(gameObject);
         }
